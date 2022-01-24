@@ -1,0 +1,336 @@
+<html class="scroll-smooth">
+
+<head>
+  <title>HACK KRMU 2022 | Hackathon Competition by K. R. Mangalam University</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- <meta http-equiv="refresh" content="2" > -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Squada+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <script type="text/javascript" src="./main.js"></script>
+
+</head>
+
+<body>
+    <nav class="sticky top-0 z-50 flex items-center justify-between flex-wrap bg-black p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+
+      <span class="font-semibold text-xl tracking-tight"><a href="">HACK KRMU</a></span>
+    </div>
+      <button onclick="toggleMenu()" id="menuButton1"
+        class="lg:hidden flex items-center px-3 py-2 border rounded text-white border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" id="menuButton2">
+          <title>Menu</title>
+          <path id="menuButton3" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    <div id="menu"
+      class="w-full transition-opacity ease duration-500 hidden flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="text-sm lg:flex-grow lg:flex lg:justify-end">
+        <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+          About
+        </a>
+        <a href="#theme" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+          Theme
+        </a>
+
+        <a href="#schedule" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+          Event Schedule
+        </a>
+        <!-- <a href="#team" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+                          Our Team
+                        </a> -->
+        <a href="#faq" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+          FAQs
+        </a>
+        <!-- <a href="#rules" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-rose-700 mr-4">
+                            Rules & Guidelines
+                        </a> -->
+      </div>
+      <div>
+        <a href="#"
+          class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-rose-700 hover:text-rose-700 mt-4 lg:mt-0">Register</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <div id='one' class="text-white min-h-screen pt-[20vh] xl:py-96">
+    <div class="w-50 lg:border-b pb-5 lg:max-w-screen-xl mx-auto">
+      <h1 class='text-6xl lg:text-8xl lg:mb-10 text-center bg-gradient-to-r from-red-400 to-red-900'><a
+          class='animating-underline'>
+          HACK KRMU</a></h1>
+      <h3 class='text-sm md:text-base lg:text-lg pt-20 xl:text-2xl text-center'>A hackathon competition organised by K. R. Mangalam University,
+        Gurgaon</h3>
+    </div>
+
+  </div>
+  <div class="lg:block bg-black text-white pb-20">
+    <div id='about' class="grid grid-cols-2 lg:max-w-screen-md justify-center mx-auto">
+      <div class="col-span-2 py-2 px-3 mx-5 text-center">
+        <h2 class="text-4xl py-10">About</h2>
+        <p class='text-sm md:text-base text-justify'>HACK KRMU is a 2 days long hackathon event being organised by the School of Engineering
+          & Technology (SOET) of K. R. Mangalam University. The event is aimed to promote the culture of development and
+          "hacking together" new ideas and solutions in the university. The event is inter-college and students from
+          colleges outside K. R. Mangalam are also invited to participate.</p>
+      </div>
+
+      <div class="col-span-2 md:col-span-1 py-3 px-3 md:px-8 border rounded border-gray-300 mx-2 md:mx-5 mt-2 md:mt-10 mb-2">
+        <h3>
+          <strong>Event Dates:</strong> <br />22nd & 23rd February 2022
+        </h3>
+      </div>
+
+      <div class="col-span-2 md:col-span-1 py-3 px-3 md:px-8 border rounded border-gray-300 mx-2 md:mx-5 mt-2 md:mt-10 mb-2">
+        <h3>
+          <strong>Register By:</strong> <br />14 February 2022
+        </h3>
+      </div>
+
+      <div class="col-span-2 md:col-span-1 py-3 px-3 md:px-8 border rounded border-gray-300 mx-2 md:mx-5 mt-2 md:mt-10 mb-2">
+        <h3>
+          <strong>Members per Team:</strong> <br />Max 4 (Solo entries also allowed)
+        </h3>
+      </div>
+      <div class="col-span-2 md:col-span-1 py-3 px-3 md:px-8 border rounded border-gray-300 mx-2 md:mx-5 mt-2 md:mt-10 mb-2">
+        <h3>
+          <strong>Venue:</strong> <br />Online
+        </h3>
+      </div>
+
+      <div id='prize' class="col-span-2 mx-5 bg-red-900 font-bold py-2 px-3 rounded  my-10">
+        <h2 class="text-xl md:text-3xl flex flex-col justify-center text-center py-3">
+          Prize Pool:
+          <span class='mt-2'>₹4,5000 Minimum</span>
+        </h2>
+      </div>
+      <!-- 90271F -->
+
+
+    </div>
+  </div>
+  <div id="theme" class="bg-gradient-to-tl from-black to-[#400C08] text-white pt-20 md:pt-40 pb-20 ">
+    <div class="px-5 lg:max-w-screen-md mx-auto">
+      <h1 class="text-4xl text-center">Theme</h1>
+      <div class="mx-auto w-fit py-3 px-5 border my-5 text-center">Campus Digital Solutions</div>
+      <div class="text-sm md:text-base">
+      <p>By “Campus Digital Solutions”, we want to invite solutions/products/applications made by students aimed at
+        improving and better facilitating their campus life, whether it be online or offline.
+      </p>
+      <br />
+      <p>A student, at any time, knows of multiple things they wish were different about their college campus and some
+        of these can actually be changed or solved with the help of technology. Following are some examples of such
+        problems or the kind of solutions that would be welcomed in this hackathon:
+      </p>
+      <ol class='list-decimal pl-5 py-5 grid gap-1'>
+        <li>
+          A machine learning algorithm integrated with a camera that calculates at any time the density of people in a
+          specific room or hall. Can be used to identify crowds in a physical campus with accurate data, which might
+          help maintain rules of social distancing.
+        </li>
+        <li>
+          An RF-ID chip integration with identity card aimed to reduce time taken to register one’s roll number when
+          walking in or out of college campus.
+        </li>
+        <li>
+
+          A machine learning algorithm integrated with a camera specifically designed to detect select faces of students
+          in a classroom despite them wearing face masks, for an automated and instant attendance recording system.
+        </li>
+        <li>
+          A guide mobile/web application aimed at giving easy-to-understand directions to specific lecture halls and
+          classrooms, to help navigate physical campus for any visiting faculty, new students or their visiting family.
+        </li>
+        <li>
+          In the case of a college that has purely online-held classes and lectures, any application that helps serve a
+          purpose specific to that college, say, an application that allows direct interaction between students of
+          different departments/years, will also be considered a solution because it serves the purpose of giving
+          students exposure to other students in their college that they otherwise would not have met in an online
+          world.
+        </li>
+      </ol>
+      <p>In today’s time, the word “campus” is no longer restricted to the physical space and buildings of the college
+        premises. Now that for many of us, every interaction, class, lecture, lab and workshop is happening online via
+        whatsapp, MS Teams, Google Meet, Cisco Webex, all these apps together have become our college life, and by
+        extension, our Digital Campus. In this hackathon, we invite solutions/products/applications made by students
+        that want to make a solution for their college campus, whether that campus be online, offline or a hybrid of
+        these two.
+      </p>
+      <br />
+      <p>
+        <span class="text-base md:text-lg underline">NOTE: Above given solutions are just examples.</span> Your project need not be
+        alike them. As long as your project/submission aims at solving any campus problem using technology, it will be
+        accepted
+      </p>
+    </div>
+    </div>
+  </div>
+  <div id="schedule" class="bg-black text-white">
+    <div class="lg:max-w-screen-md lg:mx-auto py-10 md:py-20">
+      <h1 class="text-4xl text-center">Event Schedule</h1>
+      <div class="lg:grid lg:grid-cols-2 my-10">
+        <div class="lg:bg-gradient-to-b from-red-700 to-black pr-[2px]">
+          <div class="bg-black  px-5 py-2">
+            <h2 class='text-2xl text-center underline mb-2'>Day 1</h2>
+            <div class="flex flex-col">
+              <div class="flex flex-col">
+                <div class="my-2 lg:h-36 flex flex-col justify-start">
+                  <div>
+                    <h3 class='text-xl font-bold'>Opening Ceremony</h3>
+                  </div>
+                  <div class='text-gray-400 '>10:00 to 11:00</div>
+                  <div class='text-sm md:text-base'>Opening ceremony will provide detailed guidelines as well as a timeline for the events</div>
+                </div>
+                <div class="my-2 lg:h-36 flex flex-col justify-start">
+                  <div>
+                    <h3 class='text-xl font-bold'>Technical Workshop</h3>
+                  </div>
+                  <div class='text-gray-400'>11:00 to 12:00</div>
+                  <div class='text-sm md:text-base'>Technical workshop on topics related to emerging/trending technologies. All students attending
+                    would receive digital certificates.</div>
+                </div>
+                <div class="my-2 lg:h-36 flex flex-col justify-start">
+                  <div>
+                    <h3 class='text-xl font-bold'>TypeRacing</h3>
+                  </div>
+                  <div class='text-gray-400'>12:00 to 13:00</div>
+                  <div class='text-sm md:text-base'>A refreshing game event for attendees and participants alike.</div>
+                </div>
+                <div class="my-2 lg:h-36 flex flex-col justify-start">
+                  <div>
+                    <h3 class='text-xl font-bold'>Lunch</h3>
+                  </div>
+                  <div class='text-gray-400'>13:00 to 14:00</div>
+                </div>
+                <div class="my-2 lg:h-36 flex flex-col justify-start">
+                  <div>
+                    <h3 class='text-xl font-bold'>Seminar</h3>
+                  </div>
+                  <div class='text-gray-400'>14:00 to 15:00</div>
+                  <div class='text-sm md:text-base'>An interactive session between speakers and attendees about specific technical topics.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="px-5 py-2">
+          <h2 class="text-2xl text-center underline mb-2">Day 2</h2>
+          <div class="flex flex-col">
+            <div class="my-2 lg:h-36 flex flex-col justify-start">
+              <div>
+                <h3 class='text-xl font-bold'>Workshop</h3>
+              </div>
+              <div class='text-gray-400'>10:00 to 11:00</div>
+              <div class='text-sm md:text-base'>Technical workshop on topics related to emerging/trending technologies. All students attending would
+                receive digital certificates.</div>
+            </div>
+            <div class="my-2 lg:h-36 flex flex-col justify-start">
+              <div>
+                <h3 class='text-xl font-bold'>Extempore</h3>
+              </div>
+              <div class='text-gray-400'>11:00 to 12:00</div>
+              <div></div>
+            </div>
+            <div class="my-2 lg:h-36 flex flex-col justify-start">
+              <div>
+                <h3 class='text-xl font-bold'>BGMI video game session</h3>
+              </div>
+              <div class='text-gray-400'>12:00 to 13:00</div>
+              <div class='text-sm md:text-base'>A refreshing game event for attendees and participants alike.</div>
+            </div>
+            <div class="my-2 lg:h-36 flex flex-col justify-start">
+              <div>
+                <h3 class='text-xl font-bold'>Lunch</h3>
+              </div>
+              <div class='text-gray-400'>13:00 to 14:00</div>
+            </div>
+            <div class="my-2 lg:h-36 flex flex-col justify-start">
+              <div>
+                <h3 class='text-xl font-bold'>Award Ceremony</h3>
+              </div>
+              <div class='text-gray-400'>14:00 to 15:00</div>
+              <div class='text-sm md:text-base'>Winners would be announced, and participants would get their certificates and awards.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="faq" class="bg-black">
+    <div class="lg:max-w-screen-md lg:mx-auto py-10 md:py-20">
+      <h1 class="text-4xl text-center text-white">FAQs</h1>
+      <div class="m-8 rounded overflow-hidden">
+        <!-- accordion-tab  -->
+        <div class="group outline-none accordion-section my-1" tabindex="1">
+          <div
+            class="group border border-[#400C08] flex justify-between px-4 py-3 items-center text-gray-200 transition ease duration-500 cursor-pointer pr-10 relative">
+            <div class="group-focus:text-white transition ease duration-500">
+              Is there any registration fees for the event?
+            </div>
+            <div
+              class="h-8 w-8 border border-[#400C08] rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <i class="fas fa-chevron-down text-gray-200"></i>
+            </div>
+          </div>
+          <div class="group-focus:max-h-screen max-h-0  overflow-hidden ease duration-500">
+            <p class="p-2 px-4 text-gray-200 border border-1 border-[#400C08] text-justify text-sm md:text-base">
+              Yes, all students who want to take part in this hackathon must pay a registration fee first.
+              <br /><br />The fees is ₹40 per head. That means a team of 4 will have to pay a total of ₹160. Similarly,
+              ₹120 for a team of 3, ₹80 for a team of 2 and ₹40 for solo participants.
+            </p>
+          </div>
+        </div>
+        <!-- accordion-tab -->
+        <!-- accordion-tab  -->
+        <div class="group outline-none accordion-section my-1" tabindex="2">
+          <div
+            class="group border border-[#400C08] flex justify-between px-4 py-3 items-center text-gray-200 transition ease duration-500 cursor-pointer pr-10 relative">
+            <div class="group-focus:text-white transition ease duration-500">
+              How can I pay my registration fees?
+            </div>
+            <div
+              class="h-8 w-8 border border-[#400C08] rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <i class="fas fa-chevron-down text-gray-200"></i>
+            </div>
+          </div>
+          <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500">
+            <p class="p-2 px-4 text-gray-200 border border-1 border-[#400C08] text-justify text-sm md:text-base">
+              You can pay your team's (or your own, if solo) registration fees using UPI.<br /><br />Go to the
+              registration form and scan the QR code provided there, make the payment using UPI, and attach its
+              screenshot in the same form and submit it along with all other necessary details.
+            </p>
+          </div>
+        </div>
+        <div class="group outline-none accordion-section my-1" tabindex="2">
+          <div
+            class="group border border-[#400C08] flex justify-between px-4 py-3 items-center text-gray-200 transition ease duration-500 cursor-pointer pr-10 relative">
+            <div class="group-focus:text-white transition ease duration-500">
+              I am not from K.R. Mangalam University. Can I still participate?
+            </div>
+            <div
+              class="h-8 w-8 border border-[#400C08] rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-white group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2">
+              <i class="fas fa-chevron-down text-gray-200"></i>
+            </div>
+          </div>
+          <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500">
+            <p class="p-2 px-4 text-gray-200 border border-1 border-[#400C08] text-justify text-sm md:text-base">
+              Yes, students from any college or university may take part in this hackathon.<br /><br />We invite all
+              students with a zest for creating innovative solutions to this event.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
