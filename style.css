@@ -1,5 +1,9 @@
 body {
-  background-image: linear-gradient(15deg, #670f0f 0%, #351a1a 150%);
+  /* background-image: linear-gradient(15deg, #670f0f 0%, #351a1a 150%); */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 .home {
   height: 100vh;
@@ -45,7 +49,7 @@ body {
 .content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 27%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -60,13 +64,13 @@ body {
   font-size: 120px;
   color: #fff;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 .content .heading .heading-2 {
+  margin-top: -20px;
   font-size: 150px;
   color: #861e19;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .content p {
@@ -121,6 +125,21 @@ body {
   color: #ffffff;
 }
 
+.heading-theme {
+  font-size: 50px;
+  color: #861e19;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading-theme .heading-theme-1 {
+  padding: 0 20% 0 20%;
+  border-bottom: #000000;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 10px;
+}
+
 /* Path: index.html */
 /* carousal of themes */
 :root {
@@ -166,7 +185,10 @@ body {
   grid-column-gap: var(--spacing-l);
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
 }
 
 @media (min-width: 540px) {
@@ -177,16 +199,16 @@ body {
 
 @media (min-width: 960px) {
   .card-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .card {
-  width: auto;
   border-radius: var(--spacing-l) !important;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   list-style: none;
   position: relative;
+  margin: 30px;
 }
 
 .card:before {
@@ -243,16 +265,50 @@ body {
 
 /* footer */
 .footer {
+  background-color: #000000;
   padding-top: 20px;
   text-align: left;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  border-top: #fff;
+  /* border-top: #fff;
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 1px; */
+}
+.footer .contact {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.footer .contact .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer .contact h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin: auto 20px;
+}
+.footer .contact .heading-contact-1 {
+  padding: 0 20% 0 20%;
+  border-bottom: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 10px;
+}
+.footer .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.footer-logo {
+footer .footer-logo {
   margin-top: -20px;
 }
 .footer .footer-logo img {
@@ -274,10 +330,17 @@ body {
 }
 
 .footer a {
-  color: #fff;
+  color: #d9d9d9;
   font-size: 20px;
   font-weight: 300;
   text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .footer .footer-links a:hover {
@@ -287,7 +350,7 @@ body {
   border-bottom-width: 2px;
 }
 .footer-social a {
-  color: #fff;
+  color: #d9d9d9;
   font-size: 20px;
   font-weight: 300;
   text-decoration: none;
@@ -309,7 +372,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  width: 100%;
+  width: 90%;
   margin: auto;
   color: #fff;
   border-top: #fff;
@@ -320,6 +383,9 @@ body {
 /* media query  */
 
 @media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
   .content {
     position: absolute;
     top: 50%;
@@ -349,6 +415,10 @@ body {
   .btns {
     margin-top: 50px;
   }
+
+  .footer .container {
+    width: 100%;
+  }
   .footer .container .row {
     display: flex;
   }
@@ -358,8 +428,8 @@ body {
     width: 80px !important;
   }
   .footer .footer-logo img {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     width: 80px;
   }
 
@@ -384,5 +454,32 @@ body {
   }
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
+    margin-top: -30px;
+  }
+  .card__heading {
+    font-size: 18px;
+  }
+  .card {
+    border-radius: var(--spacing-l) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    position: relative;
+    margin: 0px;
+  }
+  .footer .container {
+    width: 100%;
+    margin-left: 20px;
+    padding: 20px 0;
+  }
+
+  .footer .contact .container {
+    display: grid;
+    margin-left: 0px;
+  }
+  .footer .contact .container .phone {
+    margin-bottom: 10px;
+  }
+  .footer .contact .container .email {
+    margin-bottom: -20px;
   }
 }
