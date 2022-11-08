@@ -34,7 +34,7 @@ width: 100%;
 }
 .nav-link{
   font-size: 1.2rem;
-  font-family: "montserrat-light";
+  font-family: "ubuntu";
 }
 .nav-item:hover {
   border-bottom: 2px;
@@ -128,6 +128,51 @@ width: 100%;
   color: #ffffff;
 }
 
+#about{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 12%;
+}
+
+.about-title{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+
+.table-about-head{
+  font-size: 25px;
+
+}
+.table-about-body{
+  font-size: 22px;
+}
+.hrtitle{
+  width: 40px;
+  border-top: 2px solid;
+  padding-bottom: 15px;
+}
+
+.about-section-icon-list{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-content{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 .heading-theme {
   font-size: 50px;
   color: #861e19;
@@ -143,7 +188,7 @@ width: 100%;
   padding-bottom: 10px;
   position: relative;
   top: 10px;
-  font-family: "montserrat-light";
+  font-family: "ubuntu";
   font-weight: bold;
 }
 
@@ -389,6 +434,8 @@ footer .footer-logo {
   border-top-width: 1px;
 }
 
+
+
 /* media query  */
 
 @media (max-width: 768px) {
@@ -585,7 +632,8 @@ footer .footer-logo {
 
 .title-t{
   color: #861E19;
-  font-family: "montserrat-light";
+  /* font-family: "montserrat-light"; */
+  font-family: "ubuntu";
   font-size: 45px;
   font-weight:bold;
 }
@@ -1210,4 +1258,114 @@ h6 {
   } */
 }
 
+
+
+
+/* glimpse */
+.glimpse{
+  height: 110vh;
+  background: url(/images/glimps-bg.jpeg);
+  padding: 0 12%;
+}
+
+
+.glimpses-title{
+  padding: 50px 0 0 0;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.carousel-item{
+  width: 600px;
+  height: 550px;
+  border: 5px solid;
+  border-color: white;
+}
+
+.glimps-hr{
+  width: 40px;
+  border-top: 4px solid;
+  color: white;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 850px) {
+  .glimpse{
+    height: 110vh;
+    background: url(/images/glimps-bg.jpeg);
+    padding: 0 12%;
+  }
+  
+  
+  .glimpses-title{
+    padding: 50px 0 0 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  .carousel-item{
+    width: 600px;
+    height: 360px;
+    border: 5px solid;
+    border-color: white;
+  }
+  
+  .glimps-hr{
+    width: 40px;
+    border-top: 4px solid;
+    color: white;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .about{
+    max-width: 420px;
+  }
+  .about-title{
+    font-size: 65px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .about-section-icon-list{
+    display: none;
+  }
+  .about .table-about-head{
+    font-size: 30px;
+  }
+  .about .table-about-body{
+    font-size: 26px;
+  }
+  .glimpse{
+    height: 70vh;
+    background: url(/images/glimps-bg.jpeg);
+    padding: 0 10%;
+}
+
+
+.glimpses-title{
+    padding: 50px 0 0 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.carousel-item{
+    width: 600px;
+    height: 200px;
+    border: 5px solid;
+    border-color: white;
+}
+
+.glimps-hr{
+    width: 40px;
+    border-top: 4px solid;
+    color: white;
+    padding-bottom: 20px;
+}
+}
 
