@@ -771,13 +771,13 @@ a,
   padding: 0 0 30px;
   max-width: 370px;
   margin: 0 auto;
-  border-bottom: 20px solid #ff8a01;
+  border-bottom: 20px solid #d1b000;
 }
 
 .pricing-block .icon-box{
   position: relative;
   padding: 50px 30px 0;
-  background-color: #ff8a01;
+  background-color: #d1b000;
   text-align: center;
 }
 
@@ -809,10 +809,10 @@ a,
   height: 130px;
   width: 130px;
   line-height: 120px;
-  border: 5px solid #ff8a01;
+  border: 5px solid #d1b000;
   border-radius: 50%;
   font-size: 50px;
-  color: #ff8a01;
+  color: #d1b000;
   -webkit-transition:all 600ms ease;
   -ms-transition:all 600ms ease;
   -o-transition:all 600ms ease;
@@ -844,7 +844,7 @@ a,
   font-size: 30px;
   color: #222222;
   font-weight: 700;
-  color: #ff8a01;
+  color: #d1b000;
 }
 
 
@@ -1118,11 +1118,8 @@ h6 {
 
 :root {
   ---Very-dark-blue: hsl(238, 29%, 16%);
-  --Soft-red: hsl(14, 88%, 65%);
-
   --Very-dark-grayish-blue: hsl(237, 12%, 33%);
   --Dark-grayish-blue: hsl(240, 6%, 50%);
-
   --Light-grayish-blue: hsl(240, 5%, 91%);
 }
 
@@ -1181,7 +1178,7 @@ h6 {
 }
 
 .faq__question:hover {
-  color: var(--Soft-red);
+  color: #861e19;
 }
 
 .faq__answer {
