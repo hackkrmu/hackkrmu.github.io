@@ -1264,7 +1264,7 @@ h6 {
 /* glimpse */
 .glimpse{
   height: 110vh;
-  background: url(/images/glimps-bg.jpeg);
+  background: url(images/glimps-bg.jpeg);
   padding: 0 12%;
 }
 
@@ -1293,7 +1293,7 @@ h6 {
 @media (max-width: 850px) {
   .glimpse{
     height: 110vh;
-    background: url(/images/glimps-bg.jpeg);
+    background: url(images/glimps-bg.jpeg);
     padding: 0 12%;
   }
   
@@ -1342,7 +1342,7 @@ h6 {
   }
   .glimpse{
     height: 70vh;
-    background: url(/images/glimps-bg.jpeg);
+    background: url(images/glimps-bg.jpeg);
     padding: 0 10%;
 }
 
