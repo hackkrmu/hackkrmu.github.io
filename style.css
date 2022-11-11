@@ -61,7 +61,7 @@ nav {
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 27%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -114,7 +114,6 @@ nav {
 .fee-table {
   display: flex;
   margin: 10px auto;
-  padding-top: 50px;
   color: #46100d;
   justify-content: space-between;
   text-align: center;
