@@ -111,7 +111,36 @@ nav {
   color: #861e19;
   transition: 0.3s ease-in-out;
 }
-
+.fee-table {
+  display: flex;
+  margin: 10px auto;
+  padding-top: 50px;
+  color: #46100d;
+  justify-content: space-between;
+  text-align: center;
+  width: 300px;
+}
+.registration-fee {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.registration-fee > h5 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #861e19;
+}
+.registration-fee > h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
 .about-us .about-heading {
   font-size: 50px;
   font-weight: 700;
@@ -482,7 +511,7 @@ footer .footer-logo {
   }
 
   .btns {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .footer .container .row {
