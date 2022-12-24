@@ -28,7 +28,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <link rel="shortcut icon" href="./images/nav-logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/Hack-krmu-logo.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
 
 
@@ -38,10 +43,10 @@
 <body>
   <section class="home" id="home">
     <nav id="nav">
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+      <nav class="navbar navbar-expand-lg navbar-dark nav-bar">
         <a class="navbar-brand" href="">
-          <img class="nav-logo-img" id="logo" src="./images/nav-logo.png" alt="nav-logo" />
-          <h6 class="nav-name">Hack KRMU</h6>
+          <img class="nav-logo-img" id="logo" src="./images/Hack-krmu-logo.png" alt="nav-logo" />
+          <!-- <h6 class="nav-name">Hack KRMU</h6> -->
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -65,6 +70,9 @@
                 <a class="nav-link active text-white" href="#schedule">SCHEDULE</a>
               </li>
               <li class="nav-item active">
+                <a class="nav-link active text-white" href="#">SPONSORS</a>
+              </li>
+              <li class="nav-item active">
                 <a class="nav-link active text-white" href="#team">TEAM</a>
               </li>
               <li class="nav-item active">
@@ -79,38 +87,34 @@
       <div class="container">
         <div class="content">
           <div class="heading">
-            <h1 class="heading-1">Hack KRMU</h1>
+            <h1 class="heading-1">HACK KRMU</h1>
             <h1 class="heading-2">2.0</h1>
           </div>
           <h5 class="sub-heading">
             A 36-hour Hackathon <span id="typing"></span>
           </h5>
-          <div class="btns">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSesdnoUiugCRoBJowKeD5hHAZj0uoNKuiwO7Vl5UG_Ou8rq9Q/viewform" target="_blank" class="btn btn-primary register">Register</a>
+          <!-- <div class="btns"> -->
+          <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSesdnoUiugCRoBJowKeD5hHAZj0uoNKuiwO7Vl5UG_Ou8rq9Q/viewform" target="_blank" class="btn btn-primary register">Register</a> -->
+          <div class="register-btn">
+
+            <button class="button login__submit">
+              <span class="button__text">REGISTER Now</span>
+              <i class="button__icon fas fa-chevron-right"></i>
+            </button>
           </div>
-          <div class="fee-table">
-            <div class="registration-fee">
-              <h5>Solo</h5>
-              <h6>₹100</h6>  
-            </div>
-            <div class="registration-fee">
-              <h5>Duet</h5>
-              <h6>₹500</h6>  
-            </div>
-            <div class="registration-fee">
-              <h5>Team</h5>
-              <h6>₹1000</h6>  
-            </div>
-        </div>
+          <!-- </div> -->
+
         </div>
       </div>
+    </div>
+    </div>
     </div>
   </section>
 
   <section class="about" id="about">
     <h2 class="about-title">About the Event</h2>
     <hr class="hrtitle" />
-    <p>
+    <p class="about-text-para">
       HACK KRMU 2.0, the second iteration of the HACK KRMU hackathon series, is a 3-day event that will equip students
       with real technical and collaboration skills to hack together a project. As technological innovation shapes our
       future, we believe that it is imperative to get more diversity into tech spaces, and we see hackathons as a tool
@@ -144,51 +148,19 @@
             <p class="table-about-body" style="font-size: 16px; text-align: center">SOHNA ROAD, GURUGRAM</p>
           </td>
           <td>
-            <h6 class="table-about-body" style="text-align: center">23-25 NOVEMBER, 2022</h6>
+            <h6 class="table-about-body" style="text-align: center">15-17 FEBRUARY, 2023</h6>
           </td>
         </tr>
       </tbody>
     </table>
-    <div class="about-section-icon-list">
-      <div class="icon-content">
-        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="hover" style="width: 120px; height: 120px">
-        </lord-icon>
-        <h4>
-          Diverse<br />
-          Participation
-        </h4>
-      </div>
-      <div class="icon-content">
-        <lord-icon src="https://cdn.lordicon.com/eszyyflr.json" trigger="hover" style="width:120px;height:120px">
-        </lord-icon>
-        <h4>
-          Experienced<br />
-          Mentors
-        </h4>
-      </div>
-      <div class="icon-content">
-        <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="hover" style="width:120px;height:120px">
-        </lord-icon>
-        <h4>
-          Seamless<br />
-          Connectivity
-        </h4>
-      </div>
-      <div class="icon-content">
-        <lord-icon src="https://cdn.lordicon.com/jjjmlddk.json" trigger="hover" style="width:120px;height:120px">
-        </lord-icon>
-        <h4>
-          On-campus<br />
-          Accommodation
-        </h4>
-      </div>
+
 
     </div>
   </section>
 
 
   <section class="glimpse" id="glimplse">
-    <h2 class="glimpses-title">Glimpses of <span style="color: #861E19; font-weight:bold">Hack KRMU 1.0</span>
+    <h2 class="glimpses-title">Glimpses of <span style="color: #4076FF; font-weight:bold">Hack KRMU 1.0</span>
     </h2>
     <hr class="glimps-hr">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -230,151 +202,83 @@
 
 
 
+
+
   <section class="themes" id="themes">
     <h2 class="heading-theme">
       <span class="heading-theme-1">THEMES</span>
     </h2>
-    <section class="hero-section">
-      <div class="card-grid">
-        <a class="card" href="#">
-          <div class="card__background" style="background-image: url(./images/agriculture-min.png)"></div>
-          <div class="card__content">
-            <p class="card__category">Theme</p>
-            <h3 class="card__heading">Agriculture and Rural Development</h3>
-          </div>
-        </a>
-        <a class="card" href="#">
-          <div class="card__background" style="background-image: url(./images/drones-min.png)"></div>
-          <div class="card__content">
-            <p class="card__category">Theme</p>
-            <h3 class="card__heading">Robotics and Drones</h3>
-          </div>
-        </a>
-        <a class="card" href="#">
-          <div class="card__background" style="background-image: url(./images/health-min.png)"></div>
-          <div class="card__content">
-            <p class="card__category">Theme</p>
-            <h3 class="card__heading">Care and Biomedical</h3>
-          </div>
-          </li>
-          <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/clean-min.png)"></div>
-            <div class="card__content">
-              <p class="card__category">Theme</p>
-              <h3 class="card__heading">Sustainable Clean</h3>
-            </div>
-          </a>
-          <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/education-min.png)"></div>
-            <div class="card__content">
-              <p class="card__category">Theme</p>
-              <h3 class="card__heading">Smart Education</h3>
-            </div>
-          </a>
-          <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/smart-min.png)"></div>
-            <div class="card__content">
-              <p class="card__category">Theme</p>
-              <h3 class="card__heading">Smart Automation</h3>
-            </div>
-          </a>
-          <div>
-    </section>
-  </section>
-
-  <section class="page">
-    <div class="divider1"></div>
-  </section>
-
-  <section id="prizes" class="pricing-section">
-    <div class="container">
-      <div class="sec-title text-center">
-        <span class="title"></span>
-        <h2 class="title-t" style="color: #861E19;">PRIZES</h2>
+    <div class="themes-cards">
+      <div class="theme-card blockchain">
+        <div class="card-title">
+          BLOCKCHAIN
+        </div>
       </div>
-
-      <div class="outer-box">
-        <div class="row">
-
-          <!-- Pricing Block -->
-          <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-            <div class="inner-box">
-              <div class="icon-box">
-                <div class="icon-outer"><i class="fas fa-gem"></i></div>
-              </div>
-              <div class="price-box">
-                <div class="title">1st Prize</div>
-                <h4 class="price">₹20,000</h4>
-              </div>
-              <ul class="features">
-                <!-- <li class="true">Congratulations!</li> -->
-                <!-- <li class="true">Free Lunch And Coffee</li>
-                          <li class="true">Certificate</li>
-                          <li class="true">Easy Access</li>
-                          <li class="false">Free Contacts</li> -->
-              </ul>
-              <!-- <div class="btn-box">
-                          <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
-                      </div> -->
-            </div>
-          </div>
-          <!-- Pricing Block -->
-          <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-            <div class="inner-box">
-              <div class="icon-box">
-                <div class="icon-outer"><i class="fas fa-gem"></i></div>
-              </div>
-              <div class="price-box">
-                <div class="title"> 2nd Prize</div>
-                <h4 class="price">₹15,000</h4>
-              </div>
-              <ul class="features">
-                <!-- <li class="true">Congratulations!</li> -->
-                <!-- <li class="true"></li>
-                              <li class="true"></li>
-                              <li class="false"></li>
-                              <li class="false"></li> -->
-              </ul>
-              <!-- <div class="btn-box">
-                              <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
-                          </div> -->
-            </div>
-          </div>
-
-
-
-          <!-- Pricing Block -->
-          <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-            <div class="inner-box">
-              <div class="icon-box">
-                <div class="icon-outer"><i class="fas fa-gem"></i></div>
-              </div>
-              <div class="price-box">
-                <div class="title">3rd Prize</div>
-                <h4 class="price">₹10,000</h4>
-              </div>
-              <ul class="features">
-                <!-- <li class="true">Congratulations!</li> -->
-                <!-- <li class="true">Free Lunch And Coffee</li>
-                              <li class="true">Certificate</li>
-                              <li class="true">Easy Access</li>
-                              <li class="true">Free Contacts</li> -->
-              </ul>
-              <!-- <div class="btn-box">
-                              <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
-                          </div> -->
-            </div>
-          </div>
+      <div class="theme-card ar-vr">
+        <div class="card-title">
+          AR/VR
+        </div>
+      </div>
+      <div class="theme-card fintech">
+        <div class="card-title">
+          FINTECH
+        </div>
+      </div>
+      <div class="theme-card drones">
+        <div class="card-title">
+          AUTONOMOUS ROBOTICS & DRONES
+        </div>
+      </div>
+      <div class="theme-card health-ed">
+        <div class="card-title">
+          HEALTH & EDUCATION
+        </div>
+      </div>
+      <div class="theme-card open-innovation">
+        <div class="card-title">
+          OPEN INNOVATION
         </div>
       </div>
     </div>
+
+
   </section>
 
-  <section class="page">
-    <div class="divider2"></div>
+
+
+  <section id="prizes" class="prizes">
+    <div class="container">
+      <div class="sec-title title-prizes-div">
+        <h2 class="title-prizes" style="color: #fff;">PRIZES</h2>
+      </div>
+      <div class="prize-cards">
+        <div class="prize-card first-prize">
+          <div class="prize-card-content">
+            COMING SOON
+          </div>
+        </div>
+        <div class="prize-card second-prize">
+          <div class="prize-card-content">
+            COMING SOON
+          </div>
+        </div>
+        <div class="prize-card third-prize">
+          <div class="prize-card-content">
+            COMING SOON
+          </div>
+        </div>
+        
+        
+      </div>
+
+    </div>
+    </div>
+    </div>
   </section>
 
-  <section id="schedule" class="schedule">
+
+
+  <!-- <section id="schedule" class="schedule">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-8 col-lg-6">
@@ -397,16 +301,14 @@
           </div>
         </div>
       </div>
-  </section>
+  </section> -->
 
 
 
 
 
 
-  <section class="page">
-    <div class="divider2"></div>
-  </section>
+
 
   <section id="team" class="section-team">
     <div class="container">
@@ -415,7 +317,7 @@
         <div class="col-md-8 col-lg-6">
           <div class="header-section">
             <h3 class="small-title"></h3>
-            <h2 class="title-t">TEAM MEMBERS</h2>
+            <h2 class="title-team-member">TEAM MEMBERS</h2>
           </div>
         </div>
       </div>
@@ -434,22 +336,24 @@
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/abnvsnha/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/abnvsnha/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
-                <div class="twitter">
+                <!-- <div class="twitter">
                   <a style="color: #861e19;" href="https://twitter.com/zebhinav" target="_blank">
                     <i class="bi bi-twitter"></i>
                   </a>
                 </div>
                 <div class="github">
 
-                  <a style="color: #861e19;" href="https://github.com/zeborg" target="_blank"><i class="bi bi-github"></i></a>
+                  <a style="color: #861e19;" href="https://github.com/zeborg" target="_blank"><i
+                      class="bi bi-github"></i></a>
                 </div>
                 <div class="instagram">
-                  <a style="color: #861e19;" href="https://instagram.com/zebhinav" target="_blank"><i class="bi bi-instagram"></i></a>
-                </div>
+                  <a style="color: #861e19;" href="https://instagram.com/zebhinav" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
+                </div> -->
 
               </div>
             </div>
@@ -464,27 +368,29 @@
             </div>
             <div class="person-info">
               <h3 class="full-name">Rishav Jha</h3>
-              <span class="speciality">Organizer</span>
+              <span class="speciality">Community manager</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/rishavcodes/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/rishavcodes/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
-                <div class="twitter">
+                <!-- <div class="twitter">
                   <a style="color: #861e19;" href="https://twitter.com/rjnycusa" target="_blank">
                     <i class="bi bi-twitter"></i>
                   </a>
                 </div>
                 <div class="github">
 
-                  <a style="color: #861e19;" href="https://github.com/rishavcodes"  target="_blank"><i class="bi bi-github"></i></a>
+                  <a style="color: #861e19;" href="https://github.com/rishavcodes" target="_blank"><i
+                      class="bi bi-github"></i></a>
                 </div>
                 <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/rishav.codes/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a style="color: #861e19;" href="https://www.instagram.com/rishav.codes/" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
 
-                </div>
+                </div> -->
 
               </div>
             </div>
@@ -500,11 +406,11 @@
             </div>
             <div class="person-info">
               <h3 class="full-name">Sagar Vashnav</h3>
-              <span class="speciality">Organizer</span>
+              <span class="speciality">Design Manager</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/sagar-vashnav/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/sagar-vashnav/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -513,14 +419,16 @@
                     <i class="bi bi-twitter"></i>
                   </a>
                 </div> -->
-                <div class="github">
+                <!-- <div class="github">
 
-                  <a style="color: #861e19;" href="https://github.com/sagar-7227" target="_blank"><i class="bi bi-github"></i></a>
+                  <a style="color: #861e19;" href="https://github.com/sagar-7227" target="_blank"><i
+                      class="bi bi-github"></i></a>
                 </div>
                 <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/vashnavsagar/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a style="color: #861e19;" href="https://www.instagram.com/vashnavsagar/" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
 
-                </div>
+                </div> -->
 
               </div>
             </div>
@@ -536,27 +444,29 @@
             </div>
             <div class="person-info">
               <h3 class="full-name">Onkar Vatsa</h3>
-              <span class="speciality">Organizer</span>
+              <span class="speciality">Technical Head</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/onkar-vatsa-2478b5212/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/onkar-vatsa-2478b5212/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
-                <div class="twitter">
+                <!-- <div class="twitter">
                   <a style="color: #861e19;" href="https://twitter.com/OMVATSA1" target="_blank">
                     <i class="bi bi-twitter"></i>
                   </a>
                 </div>
                 <div class="github">
 
-                  <a style="color: #861e19;" href="https://github.com/onkar-01" target="_blank"><i class="bi bi-github"></i></a>
+                  <a style="color: #861e19;" href="https://github.com/onkar-01" target="_blank"><i
+                      class="bi bi-github"></i></a>
                 </div>
                 <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/om_._.vatsa/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a style="color: #861e19;" href="https://www.instagram.com/om_._.vatsa/" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
 
-                </div>
+                </div> -->
 
               </div>
             </div>
@@ -572,11 +482,11 @@
             </div>
             <div class="person-info">
               <h3 class="full-name">Aman Shekhar</h3>
-              <span class="speciality">Organizer</span>
+              <span class="speciality">Event Manager</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/aman-shekhar-854a06112" target="_blank">
+                  <a style="color: #3e64ff" href="https://www.linkedin.com/in/aman-shekhar-854a06112" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -589,118 +499,11 @@
 
                   <a style="color: #861e19;" href="" target="_blank"><i class="bi bi-github"></i></a>
                 </div> -->
-                <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/sahayshekhar06/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <!-- <div class="instagram">
+                  <a style="color: #861e19;" href="https://www.instagram.com/sahayshekhar06/" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
 
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- / End Single Person -->
-        <!-- Start Single Person -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="single-person">
-            <div class="person-image">
-              <img src="images/nidhi.jpeg" alt="">
-
-            </div>
-            <div class="person-info">
-              <h3 class="full-name">Nidhi Jha</h3>
-              <span class="speciality">Organizer</span>
-              <div class="social-links-team"
-                style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
-                <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/nidhijhaa/" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                </div>
-                <!-- <div class="twitter">
-                  <a style="color: #861e19;" href="">
-                    <i class="bi bi-twitter"></i>
-                  </a>
                 </div> -->
-                <div class="github">
-
-                  <a style="color: #861e19;" href="https://github.com/Nidhijhaa" target="_blank"><i class="bi bi-github"></i></a>
-                </div>
-                <div class="instagram">
-                  <a style="color: #861e19;" href=" https://www.instagram.com/nidhii__jha/" target="_blank"><i class="bi bi-instagram"></i></a>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- / End Single Person -->
-        <!-- Start Single Person -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="single-person">
-            <div class="person-image">
-              <img src="images/ankit.jpg" alt="">
-
-            </div>
-            <div class="person-info">
-              <h3 class="full-name">Ankit Luthra</h3>
-              <span class="speciality">Organizer</span>
-              <div class="social-links-team"
-                style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
-                <div class="linkedin">
-                  <a href="https://www.linkedin.com/in/luthra2001/" style="color: #861e19;" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                </div>
-                <div class="twitter">
-                  <a style="color: #861e19;" href="https://twitter.com/AnkitLu47631957" target="_blank">
-                    <i class="bi bi-twitter"></i>
-                  </a>
-                </div>
-                <div class="github">
-
-                  <a style="color: #861e19;" href="https://github.com/ankii2001" target="_blank"><i class="bi bi-github"></i></a>
-                </div>
-                <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/ankiiluthra/" target="_blank"><i class="bi bi-instagram"></i></a>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- / End Single Person -->
-        <!-- Start Single Person -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="single-person">
-            <div class="person-image">
-              <img src="images/aarzoo.png" alt="">
-
-            </div>
-            <div class="person-info">
-              <h3 class="full-name">Arzoo Shukla</h3>
-              <span class="speciality">Organizer</span>
-              <div class="social-links-team"
-                style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
-                <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/aarzoo-shukla-80b7b9215" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                </div>
-                <!-- <div class="twitter">
-                  <a style="color: #861e19;" href="" target="_blank">
-                    <i class="bi bi-twitter"></i>
-                  </a>
-                </div>
-                <div class="github">
-
-                  <a style="color: #861e19;" href="" target="_blank"><i class="bi bi-github"></i></a>
-                </div> -->
-                <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/_aarzooshukla/ " target="_blank"><i class="bi bi-instagram"></i></a>
-
-                </div>
 
               </div>
             </div>
@@ -716,23 +519,24 @@
             </div>
             <div class="person-info">
               <h3 class="full-name">Kanak Jadaun</h3>
-              <span class="speciality">Organizer</span>
+              <span class="speciality">Social Media Manager</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/kanak-jadaun-694312202/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/kanak-jadaun-694312202/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
-                <div class="twitter">
+                <!-- <div class="twitter">
                   <a style="color: #861e19;" href="https://twitter.com/kanak_jadaun" target="_blank">
                     <i class="bi bi-twitter"></i>
                   </a>
                 </div>
                 <div class="github">
 
-                  <a style="color: #861e19;" href="https://github.com/git-max-ai" target="_blank"><i class="bi bi-github"></i></a>
-                </div>
+                  <a style="color: #861e19;" href="https://github.com/git-max-ai" target="_blank"><i
+                      class="bi bi-github"></i></a>
+                </div> -->
 
               </div>
             </div>
@@ -743,16 +547,16 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="single-person">
             <div class="person-image">
-              <img src="images/parul.jpeg" alt="parul" style="width: inherit;">
+              <img src="images/sahil.png" alt="parul" style="width: inherit;">
 
             </div>
             <div class="person-info">
-              <h3 class="full-name">Parul Khatri</h3>
-              <span class="speciality">Organizer</span>
+              <h3 class="full-name">Sahil Sharma</h3>
+              <span class="speciality">Marketing Head</span>
               <div class="social-links-team"
                 style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
                 <div class="linkedin">
-                  <a style="color: #861e19;" href="https://www.linkedin.com/in/parul-khatri-06b86420b/" target="_blank">
+                  <a style="color: #3e64ff;" href="https://www.linkedin.com/in/sahil-sharma-745b24207/" target="_blank">
                     <i class="bi bi-linkedin"></i>
                   </a>
                 </div>
@@ -765,70 +569,33 @@
 
                   <a style="color: #861e19;" href="" target="_blank"><i class="bi bi-github"></i></a>
                 </div> -->
-                <div class="instagram">
-                  <a style="color: #861e19;" href="https://www.instagram.com/parul_khatri22/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <!-- <div class="instagram">
+                  <a style="color: #861e19;" href="https://www.instagram.com/parul_khatri22/" target="_blank"><i
+                      class="bi bi-instagram"></i></a>
 
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- / End Single Person -->
-        <!-- Start Single Person -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="single-person">
-            <div class="person-image">
-              <img src="images/gunesh.png" alt="">
-
-            </div>
-            <div class="person-info">
-              <h3 class="full-name">Gunesh Gautam</h3>
-              <span class="speciality">Organizer</span>
-              <div class="social-links-team"
-                style="display: flex; justify-content: space-around; font-size: 28px; background-color: rgba(255, 255, 255, 0.85); border-radius: 6px; margin: 10px 0;">
-                <div class="linkedin">
-                  <!-- <a style="color: #861e19;" href="https://www.linkedin.com/company/hackkrmu/">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                </div>
-                <div class="twitter">
-                  <a style="color: #861e19;" href="">
-                    <i class="bi bi-twitter"></i>
-                  </a>
-                </div>
-                <div class="github">
-
-                  <a style="color: #861e19;" href=""><i class="bi bi-github"></i></a>
                 </div> -->
-                <div class="instagram">
-                  <a style="color: #861e19;" href="https://instagram.com/gunesh__gautam" target="_blank"><i class="bi bi-instagram"></i></a>
-
-                </div>
 
               </div>
             </div>
           </div>
         </div>
         <!-- / End Single Person -->
+        </div>
       </div>
-    </div>
   </section>
 
   <!-- faq part -->
 
-  <section class="page faq">
-    <div class="divider3"></div>
-  </section>
 
 
-  <section class="faq" id="faq" style="width: 100;">
+
+  <section class="faq" id="faq" >
     <div class="container">
 
       <div class="row justify-content-center text-center">
         <div class="col-md-8 col-lg-6">
           <div class="header-section">
-            <h2 class="title-t">FAQs</h2>
+            <h2 class="title-faq">FAQs</h2>
           </div>
         </div>
       </div>
@@ -854,46 +621,10 @@
                 – we want it to be an event that you’ll thoroughly enjoy while expanding your skillset and network.</p>
             </div>
             <div class="faq__item">
-              <h2 class="faq__question">Can I work on my hack before the event?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">No. To maintain the competition’s integrity and fairness, all work on your hack
-                must be done at the event. All projects with work done prior to the hackathon’s duration will be
-                eliminated from judging. However, you are encouraged to touch up on your skills or bring any hardware in
-                preparation for the event!
-              </p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">When do hacker applications open?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">HACK KRMU 2.0 applications open from 1st November, 2022 and will remain open till
-                23rd November, 2022.</p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">Am I eligible to participate?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">Any college or university students are eligible to participate in our event.
-              </p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">Do I need to know how to code?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">No! While you might need to know the basics of coding to make a project, you are
-                more than welcome to get started with it during the hackathon itself. Additionally, if you’re a skilled
-                designer or communicator, your design and presentation skills are also very valuable towards the success
-                of your project!
-                .
-              </p>
-            </div>
-            <div class="faq__item">
               <h2 class="faq__question">Can I sign up with a team?<img class="arrow-icon"
                   src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">We allow teams having up to 8 people to participate in the hackathon. Only the team
+              <p class="faq__answer">We allow teams having up to 5 people to participate in the hackathon. Only the team
                 lead needs to sign up individually and specify the other team members on their application.</p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">What if I don’t have a team?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">Don’t worry, we allow solo participation.</p>
             </div>
             <div class="faq__item">
               <h2 class="faq__question">What should I bring?<img class="arrow-icon" src="images/icon-arrow-down.svg"
@@ -903,69 +634,11 @@
                 Everything else required for the event will be provided to you!</p>
             </div>
             <div class="faq__item">
-              <h2 class="faq__question">Will there be hardware provided at the event?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">No! If your project requires any external hardware such as Arduino or Raspberry Pi
-                , you need to bring it by yourself.</p>
-            </div>
-            <div class="faq__item">
               <h2 class="faq__question">How much does it cost to attend?<img class="arrow-icon"
                   src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
               <p class="faq__answer">Apart from the registration fees, you don’t need to pay any additional amount.</p>
             </div>
-            <div class="faq__item">
-              <h2 class="faq__question">What COVID-19 precautions will be in place at the event?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">We will be following the guidance put forth by the Indian Government for large
-                events at the time of the event. More details will follow closer to the event and any major changes to
-                guidelines or precautions will be communicated to event participants.</p>
-            </div>
-
-
-
-            <div class="faq__item">
-              <h2 class="faq__question">What is a hackathon?<img class="arrow-icon" src="images/icon-arrow-down.svg"
-                  alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">A hackathon is best described as an “invention marathon”. Anyone who has an
-                interest in technology attends a hackathon to learn, build & share their creations over the course of a
-                weekend in a relaxed and welcoming atmosphere. You don’t have to be a programmer, and you certainly
-                don’t have to be majoring in Computer Science.
-
-                Hackathons are about bringing your crazy ideas to reality through technology. It’s an event where
-                anyone, regardless of their individual field can come & participate to learn, build & share their
-                creations.
-              </p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">Will I annoy people if I ask them questions?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">Not at all! This is a common misconception about hackathons and in actual fact,
-                it’s the complete opposite. The environment at these events is designed specifically to encourage
-                everyone to have fun and help each other. If you’re ever stuck on anything, go find a volunteer who
-                might be able to help and if not, they will almost certainly know who can.</p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">What if I don’t know anybody there?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">Not to worry! You’ll meet people when you get there. Everybody’s very friendly. A
-                lot of people go to hackathons without teams. So it’s perfectly normal to go around to people, tell them
-                you’re looking for a team, and ask if you can help out. Hackathons will often run team-matching sessions
-                at the start to help you meet people.
-
-                Pro tip: Invite your friends to come to the hackathon too! That way you’re guaranteed to have at least
-                one familiar face.
-
-              </p>
-            </div>
-            <div class="faq__item">
-              <h2 class="faq__question">What if I don’t want to present my hack?<img class="arrow-icon"
-                  src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”></h2>
-              <p class="faq__answer">You might think your project isn’t impressive or it might not be finished so you
-                don’t want to present it. You should present it anyway! Honestly, hackathons aren’t about being the best
-                or being competitive. It’s all about having fun, making friends, and learning how to become better at
-                things you care about. Presenting your hack gives you a chance to be proud of what you’ve done, and you
-                should be proud.</p>
-            </div>
+            
             <div class="faq__item">
               <h2 class="faq__question">How is my data being used by HACK KRMU 2.0?
                 <img class="arrow-icon" src="images/icon-arrow-down.svg" alt="" aria-hidden=“true”>
@@ -997,7 +670,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="footer-logo">
-            <img src="./images/nav-logo.png" alt="footer-logo" />
+            <img src="./images/Hack-krmu-logo.png" alt="footer-logo" />
 
           </div>
         </div>
