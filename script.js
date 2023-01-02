@@ -1,31 +1,28 @@
-const questions = document.querySelectorAll(".faq__question");
-
-questions.forEach((question) => {
-  question.addEventListener("click", function () {
-    let answer = question.nextElementSibling;
-    if (answer.style.display === "block") {
-      hideAnswer(question);
-    } else {
-      questions.forEach((question) => {
-        hideAnswer(question);
-      });
-      displayAnswer(question);
-    }
-  });
+var typed = new Typed('#typing', {
+  strings: ['Organized by the Students of KRMU', 'In collaboration with KEIC Cell', 'In collaboration with IIT Delhi'],
+  smartBackspace: true, // Default value
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true,
 });
 
-function displayAnswer(target) {
-  let answer = target.nextElementSibling;
-  let arrowIcon = target.firstElementChild;
-  answer.style.display = "block";
-  arrowIcon.style.transform = "rotate(180deg)";
-  target.style.fontWeight = "700";
-}
+window.addEventListener(
+  'scroll',
+  function () {
+    var navbar = document.getElementById("nav");
+    var logo = document.getElementById("logo");
+    navbar.classList.toggle('sticky', window.scrollY > 0);
+    logo.classList.toggle('img-logo', window.scrollY > 0);
 
-function hideAnswer(target) {
-  let answer = target.nextElementSibling;
-  let arrowIcon = target.firstElementChild;
-  answer.style.display = "none";
-  arrowIcon.style.transform = "rotate(0deg)";
-  target.style.fontWeight = "400";
-}
+  },
+)
+
+
+let questions = document.querySelectorAll(".faq__question");
+questions.forEach((question) => {
+  question.addEventListener("click", function () {
+    question.classList.toggle("faq__question_active");
+    const nextElement = question.nextElementSibling;
+    nextElement.classList.toggle("faq__panel_active");
+  });
+});
