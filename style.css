@@ -475,36 +475,30 @@ nav {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-align: center;
   transition: all 1s;
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(./images/prize-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .prize-card:hover{
   transform: scale(1.1);
   transition: .3s ease-in-out;
 }
-.first-prize:hover{
-  background: #f0c711;
-}
-.second-prize:hover{
-  background: #C0C0C0;
-}
-.third-prize:hover{
-  background: #CD7F32;
-}
-
 .prize-card-content {
   font-size: 30px;
   padding-top: 40px;
-  color: black;
+  color: #000;
   border: 1px solid;
   border-radius: 10px;
-  margin: 20px 20px;
-  height: 260px;
-  background-color: white;
+  margin: 10px 10px;
+  height: 280px;
+  background-color: whitesmoke;
+  /* opacity: .8; */
 }
 .prize-card-content h2{
   padding-bottom: 30px;
 }
-
 
 /* scdedule css start */
 
@@ -550,7 +544,7 @@ nav {
 /* sponsors section starts */
 
 .sponsors {
-  background-image: url(images/gli-bg.png);
+  background-image: url(images/sponsors-bg.png);
   width: 100%;
   padding-bottom: 20px;
 }
@@ -573,8 +567,8 @@ nav {
 .title-sponsor{
   height: 300px;
   width: 1000px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 .powered-sponsors{
   display: flex;
@@ -584,14 +578,14 @@ nav {
   height: 300px;
   width: 470px;
   margin-right: 60px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 .powered-sponsor2{
   height: 300px;
   width: 470px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 .associate-sponsors{
   display: flex;
@@ -601,21 +595,21 @@ nav {
   height: 300px;
   width: 300px;
   margin-right: 25px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 .associate-sponsor2{
   height: 300px;
   width: 300px;
   margin-right: 25px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 .associate-sponsor3{
   height: 300px;
   width: 320px;
-  border-radius: 10px;
-  background-color: #fff;
+  /* border-radius: 10px;
+  background-color: #fff; */
 }
 
 
@@ -623,34 +617,34 @@ nav {
   .title-sponsor{
     height: 300px;
     width: 800px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .powered-sponsor1{
     height: 300px;
     width: 370px;
     margin-right: 60px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .powered-sponsor2{
     height: 300px;
     width: 370px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .associate-sponsor1, .associate-sponsor2{
     height: 200px;
     width: 250px;
     margin-right: 30px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .associate-sponsor3{
     height: 200px;
     width: 250px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
 }
 
@@ -659,34 +653,34 @@ nav {
   .title-sponsor{
     height: 300px;
     width: 680px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .powered-sponsor1{
     height: 300px;
     width: 310px;
     margin-right: 60px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .powered-sponsor2{
     height: 300px;
     width: 310px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .associate-sponsor1, .associate-sponsor2{
     height: 200px;
     width: 220px;
     margin-right: 20px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
   .associate-sponsor3{
     height: 200px;
     width: 220px;
-    border-radius: 10px;
-    background-color: #fff;
+    /* border-radius: 10px;
+    background-color: #fff; */
   }
 }
 
@@ -695,33 +689,33 @@ nav {
     height: 300px;
     width: 580px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsor1{
     height: 300px;
     width: 265px;
     margin-right: 40px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsor2{
     height: 300px;
     width: 265px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsor1, .associate-sponsor2{
     height: 200px;
     width: 180px;
     margin-right: 15px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsor3{
     height: 200px;
     width: 180px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
 }
 
@@ -730,33 +724,33 @@ nav {
     height: 300px;
     width: 440px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsor1{
     height: 215px;
     width: 215px;
     margin-right: 20px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsor2{
     height: 215px;
     width: 215px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsor1, .associate-sponsor2{
     height: 150px;
     width: 150px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsor3{
     height: 150px;
     width: 150px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
 }
 
@@ -765,7 +759,7 @@ nav {
     height: 300px;
     width: 340px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsors{
     display: flex;
@@ -777,14 +771,14 @@ nav {
     height: 150px;
     width: 320px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .powered-sponsor2{
     height: 150px;
     width: 320px;
     margin-top: 30px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsors{
     display: flex;
@@ -798,14 +792,14 @@ nav {
     margin-right: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   .associate-sponsor3{
     height: 200px;
     width: 230px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
 }
 
@@ -826,14 +820,14 @@ nav {
 .cp1{
   height: 300px;
   width: 300px;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 10px;
   margin-right: 20px;
 }
 .cp2{
   height: 300px;
   width: 300px;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 10px;
 }
 .community-logos{
