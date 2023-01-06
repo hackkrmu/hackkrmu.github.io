@@ -944,10 +944,10 @@ nav {
   text-align: center;
   height: 200px;
   width: 300px;
-  /* border: 1px solid; */
+  border: 1px solid;
   border-radius: 10px;
   margin-right: 20px;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .cp1 img{
   border-radius: 10px;
