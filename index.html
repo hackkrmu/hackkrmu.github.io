@@ -6,35 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <link rel="shortcut icon" href="./images/Hack-krmu-logo.png" type="image/x-icon">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
 
 
@@ -87,7 +71,7 @@
     </nav>
 
     <div class="body">
-      <div class="container">
+      <div class="container-home">
         <div class="content">
           <div class="heading">
             <h1 class="heading-1">HACK KRMU</h1>
@@ -97,10 +81,10 @@
             A 36-hour Hackathon <span id="typing"></span>
           </h5>
 
-          <div class="register-btn">
-
-
-          </div>
+          <!-- <div class="event-reg-btn"> -->
+          <a class="event-reg-btn" href="https://forms.gle/8Zp1UETYnmjmGy39A" target="_blank"><button
+              class="bn632-hover bn20">Register Now</button></a>
+          <!-- </div> -->
 
         </div>
       </div>
@@ -146,7 +130,7 @@
             <p class="table-about-body" style="font-size: 16px; text-align: center">SOHNA ROAD, GURUGRAM</p>
           </td>
           <td>
-            <h6 class="table-about-body" style="text-align: center">15-17 FEBRUARY, 2023</h6>
+            <h6 class="table-about-body" style="text-align: center">15th-17th FEBRUARY, 2023</h6>
           </td>
         </tr>
       </tbody>
@@ -233,8 +217,20 @@
         </div>
       </div>
       <div class="theme-card open-innovation">
-        <div class="card-title">
-          OPEN INNOVATION
+        <div class="card-title" style="display: grid;">
+          <div>
+
+            OPEN INNOVATION
+          </div>
+          <div>
+
+            <a href="https://drive.google.com/file/d/1RZjfFfwMfrptxpb3_MZL-hpStadP8yy9/view?usp=sharing"
+              target="_blank">
+              <button class="op-in">
+                Problem Statements >
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -272,8 +268,26 @@
           </div>
         </div>
 
+        <div class="prize-card track-prize">
+          <div class="prize-card-content track-prize-content">
+            <img class="third-icon" src="/images/15.png" alt="1st">
+            <h2>Track Prizes</h2>
+            <p>₹5,000</p>
+          </div>
+        </div>
+
+        <div class="prize-card all-participants-prize">
+          <div class="prize-card-content all-participants-prize-content">
+            <img class="third-icon" src="/images/15.png" alt="1st">
+            <h2>All Participants</h2>
+            <p>Exciting Goodies</p>
+          </div>
+        </div>
+
 
       </div>
+
+
 
     </div>
     </div>
@@ -299,13 +313,13 @@
 
   <!-- sponsors section start -->
 
-  <!-- <section id="sponsors" class="sponsors">
+  <section id="sponsors" class="sponsors">
     <div class="container">
       <div class="sec-title title-prizes-div">
         <h2 class="title-prizes" style="color: #fff;">SPONSORS</h2>
       </div>
       <div class="sponsors-content">
-        <div class="sponsors-box">
+        <!-- <div class="sponsors-box">
           <h2>Title Sponsor</h2>
           <div class="title-sponsor">
           </div>
@@ -314,7 +328,7 @@
             <div class="powered-sponsor1">
             </div>
             <div class="powered-sponsor2">
-              
+
             </div>
           </div>
           <h4>Associate-sponsor</h4>
@@ -322,29 +336,33 @@
             <div class="associate-sponsor1">
             </div>
             <div class="associate-sponsor2">
-              
+
             </div>
             <div class="associate-sponsor3">
-              
+
             </div>
 
           </div>
-        </div>
+        </div> -->
 
+        <div class="sponsor-us-btn">
+          <a href="https://forms.gle/yh1d2H8MXMoWnYn56" target="_blank"><button class="sponsor-us"><span>Sponsor
+                Us</span></button></a>
+        </div>
 
       </div>
 
     </div>
     </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- sponsors section end -->
 
 
   <!-- community section start -->
 
-  <!-- <section id="community" class="community">
+  <section id="community" class="community">
     <div class="container">
       <div class="sec-title title-community-div">
         <h2 class="title-community">COMMUNITY</h2>
@@ -353,28 +371,26 @@
         <h3>Our Community Partners</h3>
         <div class="community-partners-logo">
           <div class="cp1">
-
+            <img src="./images/gdg-logo.jpg" alt="gdg-gurugram">
           </div>
-          <div class="cp2">
+          <!-- <div class="cp2">
 
-          </div>
+          </div> -->
+          
 
-
+        </div>
+        <div class="collaborate-btn">
+          <a href="https://forms.gle/EvwFm3kmEQ9PzW959" target="_blank"><button class="sponsor-us"><span>Collaborate With Us</span></button></a>
         </div>
       </div>
 
 
     </div>
-  </section> -->
+  </section>
 
 
 
   <!-- community section end -->
-
-
-
-
-
 
 
 
@@ -568,6 +584,14 @@
       </div>
 
       <div class="faq">
+        <button class="faq__question">What is a Hackathon?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            A hackathon is social coding event where programmers, designers and developers collaborate to solve
+            a problem and compete for cash prizes. It’s one part party, one part work-your-butt-off overnight
+            battle against the clock and the competition.
+          </p>
+        </div>
         <button class="faq__question">What is HACK KRMU ?</button>
         <div class="faq__panel">
           <p class="faq__answer">
@@ -585,6 +609,16 @@
             Apart from the main event, we will be hosting a variety of recreational activities
             such as games, contests, and hangout & chill sessions! HACK KRMU 2.0 is much more than just a hackathon,
             we want it to be an event that you will thoroughly enjoy while expanding your skillset and network.
+          </p>
+        </div>
+        <button class="faq__question">
+          Who is eligible to participate?
+        </button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Students who are currently enrolled in a Bachelor's or Master's degree in any College/University in any
+            stream can
+            participate.
           </p>
         </div>
         <button class="faq__question">Can I sign up with a team?</button>
@@ -605,17 +639,32 @@
         <button class="faq__question">How much does it cost to attend?</button>
         <div class="faq__panel">
           <p class="faq__answer">
-            Apart from the registration fees, you do not need to pay any additional amount.
+            Apart from the registration fees: 300/- Per Participant, you do not need to pay any additional amount.
           </p>
         </div>
-        <button class="faq__question">How is my data being used by HACK KRMU 2.0?</button>
+        <button class="faq__question">Do I have to stay at the venue the whole time?</button>
         <div class="faq__panel">
           <p class="faq__answer">
-            We collect Names, Emails, Country, and Level of study for sending out emails to the
-            participants containing relevant information related to the hackathon. Currently, each hackathon
-            registrant receives two pre-event emails detailing HACK KRMU 2.0 for hackers at the event they have
-            registered for. Phone numbers are collected for emergency or incident response purposes during the
-            hackathon.
+            Participants of the hackathon must stay at the venue to be eligible to win.
+          </p>
+        </div>
+        <button class="faq__question">Is there anything that I need to prep?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Other than finding fellow brilliant minds with complimentary skills to team up with, there is nothing
+            that you need to prepare in advance
+          </p>
+        </div>
+        <button class="faq__question">Will there be food?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            Yes, food and beverages will be provided throughout the event.
+          </p>
+        </div>
+        <button class="faq__question">Who will be Judging?</button>
+        <div class="faq__panel">
+          <p class="faq__answer">
+            The judge panel composition will be announced closer to the date of the hackathon.
           </p>
         </div>
       </div>
@@ -692,13 +741,13 @@
                 </a>
               </li>
               <li>
-                <a href="mailto:hackkrmu@gmail.com">
+                <a href="mailto:info.hackkrmu@krmu.edu.in">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-envelope-fill" viewBox="0 0 16 16">
                     <path
                       d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                   </svg>
-                  <span class="email social">hackkrmu@gmail.com</span>
+                  <span class="email social">info.hackkrmu@krmu.edu.in</span>
                 </a>
               </li>
               <li>
@@ -724,7 +773,11 @@
       </div>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 
 </body>
 
