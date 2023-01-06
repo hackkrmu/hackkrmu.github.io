@@ -927,7 +927,7 @@ nav {
 
 /* community section starts */
 .community{
-  height: 80vh;
+  height: 100vh;
 }
 .title-community-div .title-community{
   color: #4076ff;
@@ -962,6 +962,11 @@ nav {
   width: 400px;
   height: 400px;
 }
+
+.collaborate-btn{
+  padding-top: 100px;
+}
+
 
 @media screen and (max-width: 450px) {
   .community-partners-logo{
