@@ -230,6 +230,8 @@ nav {
   color: #4076ff;
   text-align: center;
   margin-bottom: 40px;
+  font-family: "ubuntu";
+  font-weight: bold;
 }
 
 .table-about-head {
@@ -502,7 +504,8 @@ nav {
 /* prizes section start */
 
 .prizes {
-  background-image: url(images/sponsors-bg.png);
+  /* background-image: url(images/sponsors-bg.png); */
+  background: #6BB4E9;
   width: 100%;
   padding-bottom: 20px;
 }
@@ -644,14 +647,15 @@ nav {
 /* sponsors section starts */
 
 .sponsors {
-  background-image: url(images/sponsors-bg.png);
+  /* background-image: url(images/sponsors-bg.png); */
+  background: #6BB4E9;
   width: 100%;
-  height: 80vh;
-  padding-bottom: 10px;
+  height: 90vh;
+  /* padding-bottom: 10px; */
 }
 .sec-title {
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   margin-top: 50px;
   padding-bottom: 40px;
 }
@@ -904,22 +908,37 @@ nav {
   }
 }
 
-/* sponsor button css starts */
+
 .sponsor-us-btn{
-  margin-top: 10%;
+  height: 300px;
+  width: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.sponsor-us{
-  height: 100px;
-  width: 300px;
-  border: 4px solid;
-  border-radius: 20px;
-  border-color: #630979;
-  font-size: 30px;
+.sponsor-us-button{
+  text-decoration: none;
 }
-.sponsor-us:hover{
-  transform: scale(1.05);
+.plus-sign-sp-btn{
+  border-radius: 10px;
+  width: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.sp-us-btn{
+  padding: 20px;
+  color: grey;
+  font-weight: 500;
+  font-size: 25px;
+}
+.sponsor-us-btn:hover{
+  transform: scale(1.1);
   transition: .3s ease-in-out;
-} 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 
 /* sponsor button css ends */
 
@@ -927,51 +946,83 @@ nav {
 
 /* community section starts */
 .community{
-  height: 100vh;
+  height: 90vh;
 }
 .title-community-div .title-community{
   color: #4076ff;
+  font-family: "ubuntu";
+  font-weight: bold;
 }
 .community-content{
   display: grid;
+  justify-content: center;
   place-items: center;
 }
-.community-partners-logo{
+.community-partners-logo-head{
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
-.cp1{
-  text-align: center;
-  height: 200px;
-  width: 300px;
-  border: 1px solid;
+.community-partners-logo-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.cp{
+  height: 150px;
+  width: 150px;
   border-radius: 10px;
-  margin-right: 20px;
+  margin-right: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.cp1 img{
+  padding-top: 10px;
   border-radius: 10px;
+  margin: 10px;
 }
-.cp2{
-  height: 300px;
-  width: 300px;
-  /* border: 1px solid; */
-  border-radius: 10px;
+.call-colab{
+  height: 150px;
+  display: grid;
+  text-align: center;
 }
-.community-logos{
-  width: 400px;
-  height: 400px;
+.call-colab:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: .3s ease-in-out;
 }
-
-.collaborate-btn{
-  padding-top: 100px;
+.call-for-collab-img{
+  width: 100px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 
 @media screen and (max-width: 450px) {
-  .community-partners-logo{
-    display: grid;
+  .community-partners-logo-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     place-items: center;
+  }
+  .cp{
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 10px;
+    border-radius: 10px;
+  }
+  .call-for-collab-img{
+    width: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 }
 
@@ -1221,7 +1272,9 @@ footer .footer-logo {
 
 .section-team {
   font-family: "Poppins", sans-serif;
-  padding-top: 150px;
+  /* padding-top: 150px; */
+  margin-top: 200px;
+  /* background: #6BB4E9; */
   /* padding-bottom: 400px; */
 }
 
@@ -1229,8 +1282,10 @@ footer .footer-logo {
   font-size: 50px;
   color: #4076ff;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 40px; */
+  font-family: "ubuntu";
+  font-weight: bold;
 }
 
 .section-team .header-section {
@@ -1249,6 +1304,8 @@ footer .footer-logo {
   text-align: center;
   /* margin-top: 50px;
   margin-bottom: 40px; */
+  font-family: "ubuntu";
+  font-weight: bold;
 }
 .section-team .header-section .title {
   font-weight: 700;
