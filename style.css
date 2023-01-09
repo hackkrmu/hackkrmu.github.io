@@ -1079,6 +1079,10 @@ nav {
   background-color: #fff;
 }
 
+ .cp .logo {
+  line-height: 130px;
+ }
+
 .ocd-logo {
   height: 130px;
   border-radius: 10px;
@@ -1107,6 +1111,9 @@ nav {
 
 
 @media screen and (max-width: 430px) {
+  .community {
+    height:110vh;
+  }
   .community-partners-logo-head {
     display: flex;
     flex-wrap: wrap;
@@ -1125,6 +1132,10 @@ nav {
     padding: 10px;
     border-radius: 10px;
   }
+
+  .cp .logo {
+    line-height: 100px;
+   }  
 
   .call-for-collab-img {
     width: 60px;
