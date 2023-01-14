@@ -1037,7 +1037,7 @@ nav {
 
 /* community section starts */
 .community {
-  height: 100vh;
+  height: 100%;
   background: #6BB4E9;
 }
 
@@ -1051,11 +1051,14 @@ nav {
   display: grid;
   justify-content: center;
   place-items: center;
+  padding-bottom: 40px;
 }
 
 .community-partners-logo-head {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
   padding-top: 20px;
 }
 
@@ -1066,8 +1069,8 @@ nav {
 }
 
 .cp {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 10px;
   margin-right: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -1084,16 +1087,17 @@ nav {
   border-radius: 10px;
 }
 
-.call-colab {
+/* .call-colab {
   height: 150px;
   display: grid;
   text-align: center;
-}
+} */
 
 .call-colab:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 .call-for-collab-img {
