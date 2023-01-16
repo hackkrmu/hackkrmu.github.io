@@ -1056,6 +1056,8 @@ nav {
 .community-partners-logo-head {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
   padding-top: 20px;
 }
 
@@ -1066,8 +1068,8 @@ nav {
 }
 
 .cp {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 10px;
   margin-right: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -1079,19 +1081,8 @@ nav {
   background-color: #fff;
 }
 
- .cp .logo {
+.cp .logo {
   line-height: 130px;
- }
-
-.ocd-logo {
-  height: 130px;
-  border-radius: 10px;
-}
-
-.call-colab {
-  height: 150px;
-  display: grid;
-  text-align: center;
 }
 
 .call-colab:hover {
@@ -1109,16 +1100,30 @@ nav {
   border-bottom-right-radius: 10px;
 }
 
-
-@media screen and (max-width: 430px) {
-  .community {
-    height:110vh;
+@media (max-width: 765px){
+  .community{
+    height: 100%;
   }
   .community-partners-logo-head {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     place-items: center;
+    padding-bottom: 40px;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .community {
+    height:100%;
+  }
+  .community-partners-logo-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: center;
+    padding-bottom: 40px;
   }
 
   .cp {
@@ -1708,7 +1713,7 @@ img {
 /* glimpse */
 .glimpse {
   height: 110vh;
-  background: url(images/gli-bg.png);
+  background: url(images/glimps-bg.jpeg);
   padding: 0 18%;
 }
 
