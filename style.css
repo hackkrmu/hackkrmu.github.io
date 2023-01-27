@@ -819,7 +819,7 @@ nav {
   padding: 4px;
   position: relative;
   text-decoration: none;
-  z-index: 2;
+  z-index: 1;
   margin: 10px;
 }
 
