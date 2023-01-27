@@ -1,5 +1,5 @@
 var typed = new Typed('#typing', {
-  strings: ['Organized by the Students of KRMU', 'In collaboration with IIT Delhi'],
+  strings: ['Organized by the Students of KRMU'],
   smartBackspace: true, // Default value
   typeSpeed: 60,
   backSpeed: 60,
