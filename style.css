@@ -846,49 +846,6 @@ nav {
 
 /* community section ends */
 
-/* advisor section start */
-
-.advisor {
-  height: 250px;
-  width: 200px;
-  /* border: 1px solid; */
-  /* border-radius: 10px; */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: white;
-  text-decoration: none;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin-right: 20px;
-}
-
-.advisor-box {
-  text-decoration: none;
-}
-
-.advisor:hover {
-  transform: scale(1.1);
-  transition: .3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.advisor-name {
-  /* padding: 20px; */
-  color: grey;
-  font-weight: 500;
-  font-size: 25px;
-}
-
-@media (max-width: 430px) {
-  .advisor-name {
-    /* padding: 20px; */
-    color: grey;
-    font-weight: 500;
-    font-size: 20px;
-  }
-}
-
-/* advisor section end */
-
 
 
 
@@ -1397,9 +1354,10 @@ img {
 
 /* glimpse */
 .glimpse {
-  height: 110vh;
+  height: 100%;
   background: url(images/glimps-bg.jpeg);
   padding: 0 18%;
+  padding-bottom: 40px;
 }
 
 .glimpses-title {
@@ -1450,7 +1408,7 @@ img {
 @media (max-width: 850px) {
   .glimpse {
     height: 110vh;
-    background: url(images/gli-bg.png);
+    /* background: url(images/gli-bg.png); */
     padding: 0 12%;
   }
 
@@ -1503,7 +1461,7 @@ img {
 
   .glimpse {
     height: 60vh;
-    background: url(images/gli-bg.png);
+    /* background: url(images/gli-bg.png); */
     padding: 0 10%;
   }
 
@@ -1527,7 +1485,15 @@ img {
     color: white;
     padding-bottom: 20px;
   }
+  .sponsored-trach-card{
+    width: 300px !important;
+  }
 }
+
+.modal-body{
+  text-align: left !important;
+}
+
 
 
 
